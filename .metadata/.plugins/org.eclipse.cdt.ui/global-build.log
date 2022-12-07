@@ -1,0 +1,1203 @@
+16:06:56 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17632	     20	   2116	  19768	   4d38	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+16:07:03 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17632	     20	   2116	  19768	   4d38	projekt.elf
+Finished building: default.size.stdout
+ 
+16:58:36 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17756	     20	   2116	  19892	   4db4	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:01:14 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17756	     20	   2116	  19892	   4db4	projekt.elf
+Finished building: default.size.stdout
+ 
+17:01:40 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17756	     20	   2116	  19892	   4db4	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:01:56 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17756	     20	   2116	  19892	   4db4	projekt.elf
+Finished building: default.size.stdout
+ 
+17:20:12 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.d" -MT"Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_hal_msp.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_hal_msp.d" -MT"Core/Src/stm32f0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f0xx_it.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f0xx_it.d" -MT"Core/Src/stm32f0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f0xx.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f0xx.d" -MT"Core/Src/system_stm32f0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f0xx.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17440	     20	   2124	  19584	   4c80	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:21:28 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17444	     20	   2124	  19588	   4c84	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:32:39 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17464	     20	   2124	  19608	   4c98	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:33:26 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17464	     20	   2124	  19608	   4c98	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:33:50 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17464	     20	   2124	  19608	   4c98	projekt.elf
+Finished building: default.size.stdout
+ 
+17:35:36 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:339:6: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  339 |      if(HAL_GPIO_ReadPin(button_GPIO_Port, button_Pin) == 1);
+      |      ^~
+../Core/Src/main.c:340:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  340 |   {
+      |   ^
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17460	     20	   2124	  19604	   4c94	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:36:33 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17468	     20	   2124	  19612	   4c9c	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:37:19 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17480	     20	   2124	  19624	   4ca8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:41:03 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17428	     20	   2116	  19564	   4c6c	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:43:04 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17428	     20	   2116	  19564	   4c6c	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:44:48 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:344:6: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+  344 |      snprintf (txBuf, TXBUFLEN, "ilosc= %d", iloscWcisniec);
+      |      ^~~~~~~~
+../Core/Src/main.c:344:6: warning: incompatible implicit declaration of built-in function 'snprintf'
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  19952	    120	   2192	  22264	   56f8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+17:52:27 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:332:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  332 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17828	     20	   2116	  19964	   4dfc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:29:46 **** Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:329:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  329 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17828	     20	   2116	  19964	   4dfc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:30:01 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17828	     20	   2116	  19964	   4dfc	projekt.elf
+Finished building: default.size.stdout
+ 
+11:30:40 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17828	     20	   2116	  19964	   4dfc	projekt.elf
+Finished building: default.size.stdout
+ 
+11:30:47 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17828	     20	   2116	  19964	   4dfc	projekt.elf
+Finished building: default.size.stdout
+ 
+11:31:31 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:329:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  329 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17832	     20	   2116	  19968	   4e00	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:34:25 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:36:21: error: expected parameter name, found "40"
+   36 | #define LOW_VOLTAGE(40)
+      |                     ^~
+../Core/Src/main.c:37:22: error: expected parameter name, found "100"
+   37 | #define HIGH_VOLTAGE(100)
+      |                      ^~~
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:281,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: In function 'jedz_przod':
+../Core/Src/main.c:219:49: error: 'HIGH_VOLTAGE' undeclared (first use in this function)
+  219 |    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, HIGH_VOLTAGE);      //PA9
+      |                                                 ^~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c:219:49: note: each undeclared identifier is reported only once for each function it appears in
+  219 |    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, HIGH_VOLTAGE);      //PA9
+      |                                                 ^~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c: In function 'jedz_tyl':
+../Core/Src/main.c:228:49: error: 'HIGH_VOLTAGE' undeclared (first use in this function)
+  228 |    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, HIGH_VOLTAGE);
+      |                                                 ^~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c: In function 'hamuj':
+../Core/Src/main.c:238:49: error: 'HIGH_VOLTAGE' undeclared (first use in this function)
+  238 |    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, HIGH_VOLTAGE);
+      |                                                 ^~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c: In function 'skrec_prawo':
+../Core/Src/main.c:249:49: error: 'HIGH_VOLTAGE' undeclared (first use in this function)
+  249 |    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, HIGH_VOLTAGE);
+      |                                                 ^~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:331:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  331 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+11:34:46 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:331:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  331 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17832	     20	   2116	  19968	   4e00	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:42:45 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17832	     20	   2116	  19968	   4e00	projekt.elf
+Finished building: default.size.stdout
+ 
+11:43:04 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17832	     20	   2116	  19968	   4e00	projekt.elf
+Finished building: default.size.stdout
+ 
+11:48:00 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:332:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  332 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17836	     20	   2116	  19972	   4e04	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:51:22 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:332:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  332 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17832	     20	   2116	  19968	   4e00	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:52:27 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:332:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  332 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17772	     20	   2116	  19908	   4dc4	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:54:07 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17772	     20	   2116	  19908	   4dc4	projekt.elf
+Finished building: default.size.stdout
+ 
+11:58:10 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:338:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  338 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17700	     20	   2116	  19836	   4d7c	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:58:57 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:338:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  338 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+11:59:40 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+12:00:37 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:338:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  338 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:01:30 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+12:03:30 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:338:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  338 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:10:13 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'hamuj_pasywnie':
+../Core/Src/main.c:817: error: unterminated argument list invoking macro "__HAL_TIM_SET_COMPARE"
+../Core/Src/main.c:252:4: error: '__HAL_TIM_SET_COMPARE' undeclared (first use in this function)
+  252 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0;
+      |    ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:252:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:252:25: error: expected ';' at end of input
+  252 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0;
+      |                         ^
+      |                         ;
+......
+../Core/Src/main.c:252:4: error: expected declaration or statement at end of input
+  252 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0;
+      |    ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:74:13: warning: 'MX_GPIO_Init' declared 'static' but never defined [-Wunused-function]
+   74 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:75:13: warning: 'MX_USART2_UART_Init' declared 'static' but never defined [-Wunused-function]
+   75 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:76:13: warning: 'MX_DMA_Init' declared 'static' but never defined [-Wunused-function]
+   76 | static void MX_DMA_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:77:13: warning: 'MX_ADC_Init' declared 'static' but never defined [-Wunused-function]
+   77 | static void MX_ADC_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:78:13: warning: 'MX_TIM1_Init' declared 'static' but never defined [-Wunused-function]
+   78 | static void MX_TIM1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:79:13: warning: 'MX_TIM3_Init' declared 'static' but never defined [-Wunused-function]
+   79 | static void MX_TIM3_Init(void);
+      |             ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:10:38 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'hamuj_pasywnie':
+../Core/Src/main.c:816: error: unterminated argument list invoking macro "__HAL_TIM_SET_COMPARE"
+../Core/Src/main.c:251:4: error: '__HAL_TIM_SET_COMPARE' undeclared (first use in this function)
+  251 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0;
+      |    ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:251:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:251:25: error: expected ';' at end of input
+  251 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0;
+      |                         ^
+      |                         ;
+......
+../Core/Src/main.c:251:4: error: expected declaration or statement at end of input
+  251 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, 0;
+      |    ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:74:13: warning: 'MX_GPIO_Init' declared 'static' but never defined [-Wunused-function]
+   74 | static void MX_GPIO_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:75:13: warning: 'MX_USART2_UART_Init' declared 'static' but never defined [-Wunused-function]
+   75 | static void MX_USART2_UART_Init(void);
+      |             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:76:13: warning: 'MX_DMA_Init' declared 'static' but never defined [-Wunused-function]
+   76 | static void MX_DMA_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:77:13: warning: 'MX_ADC_Init' declared 'static' but never defined [-Wunused-function]
+   77 | static void MX_ADC_Init(void);
+      |             ^~~~~~~~~~~
+../Core/Src/main.c:78:13: warning: 'MX_TIM1_Init' declared 'static' but never defined [-Wunused-function]
+   78 | static void MX_TIM1_Init(void);
+      |             ^~~~~~~~~~~~
+../Core/Src/main.c:79:13: warning: 'MX_TIM3_Init' declared 'static' but never defined [-Wunused-function]
+   79 | static void MX_TIM3_Init(void);
+      |             ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:11:24 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17756	     20	   2116	  19892	   4db4	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:13:25 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:16:54 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:374:21: error: expected ';' before 'skrec_lewo'
+  374 |     hamuj_pasywnie()
+      |                     ^
+      |                     ;
+  375 |     skrec_lewo();
+      |     ~~~~~~~~~~       
+../Core/Src/main.c:378:21: error: expected ';' before 'skrec_prawo'
+  378 |     hamuj_pasywnie()
+      |                     ^
+      |                     ;
+  379 |     skrec_prawo();
+      |     ~~~~~~~~~~~      
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:17:05 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:374:21: error: expected ';' before 'skrec_lewo'
+  374 |     hamuj_pasywnie()
+      |                     ^
+      |                     ;
+  375 |     skrec_lewo();
+      |     ~~~~~~~~~~       
+../Core/Src/main.c:378:21: error: expected ';' before 'skrec_prawo'
+  378 |     hamuj_pasywnie()
+      |                     ^
+      |                     ;
+  379 |     skrec_prawo();
+      |     ~~~~~~~~~~~      
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:17:21 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:374:21: error: expected ';' before 'skrec_lewo'
+  374 |     hamuj_pasywnie()
+      |                     ^
+      |                     ;
+  375 |     skrec_lewo();
+      |     ~~~~~~~~~~       
+../Core/Src/main.c:378:21: error: expected ';' before 'skrec_prawo'
+  378 |     hamuj_pasywnie()
+      |                     ^
+      |                     ;
+  379 |     skrec_prawo();
+      |     ~~~~~~~~~~~      
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:17:27 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:19:08 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:21:35 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:378:26: warning: value computed is not used [-Wunused-value]
+  378 |    else(znalazlo_prawo() == 1) {
+      |        ~~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:378:31: error: expected ';' before '{' token
+  378 |    else(znalazlo_prawo() == 1) {
+      |                               ^~
+      |                               ;
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+12:22:13 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:347:7: warning: unused variable 'iloscWcisniec' [-Wunused-variable]
+  347 |   int iloscWcisniec = 0;
+      |       ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17716	     20	   2116	  19852	   4d8c	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:26:53 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17784	     20	   2116	  19920	   4dd0	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+12:31:49 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17780	     20	   2116	  19916	   4dcc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:08:20 **** Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17752	     20	   2116	  19888	   4db0	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:08:34 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17752	     20	   2116	  19888	   4db0	projekt.elf
+Finished building: default.size.stdout
+ 
+14:11:06 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17752	     20	   2116	  19888	   4db0	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:13:36 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17752	     20	   2116	  19888	   4db0	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:17:24 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17648	     20	   2116	  19784	   4d48	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:18:55 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:20:50 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17752	     20	   2116	  19888	   4db0	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:23:23 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17752	     20	   2116	  19888	   4db0	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:26:28 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:33:55 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:35:06 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:44:20 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17780	     20	   2116	  19916	   4dcc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:46:30 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17764	     20	   2116	  19900	   4dbc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:46:47 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17764	     20	   2116	  19900	   4dbc	projekt.elf
+Finished building: default.size.stdout
+ 
+14:49:53 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17764	     20	   2116	  19900	   4dbc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:51:04 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17852	     20	   2116	  19988	   4e14	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:52:44 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17840	     20	   2116	  19976	   4e08	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:53:39 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:378:4: error: 'else' without a previous 'if'
+  378 |    else if(znalazlo_przod() == 1) {
+      |    ^~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:53:51 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17764	     20	   2116	  19900	   4dbc	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:55:20 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17760	     20	   2116	  19896	   4db8	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+14:56:54 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+15:01:07 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:281,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: In function 'jedz_przod':
+../Core/Src/main.c:223:49: error: 'HIGH__VOLTAGE' undeclared (first use in this function); did you mean 'HIGH_VOLTAGE'?
+  223 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, HIGH__VOLTAGE);      //PB5
+      |                                                 ^~~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c:223:49: note: each undeclared identifier is reported only once for each function it appears in
+  223 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, HIGH__VOLTAGE);      //PB5
+      |                                                 ^~~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+15:01:13 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/stm32f0xx_hal_conf.h:281,
+                 from ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: In function 'jedz_przod':
+../Core/Src/main.c:223:49: error: 'HIGH__VOLTAGE' undeclared (first use in this function); did you mean 'HIGH_VOLTAGE'?
+  223 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, HIGH__VOLTAGE);      //PB5
+      |                                                 ^~~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+../Core/Src/main.c:223:49: note: each undeclared identifier is reported only once for each function it appears in
+  223 |    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2, HIGH__VOLTAGE);      //PB5
+      |                                                 ^~~~~~~~~~~~~
+../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h:1389:72: note: in definition of macro '__HAL_TIM_SET_COMPARE'
+ 1389 |   (((__CHANNEL__) == TIM_CHANNEL_1) ? ((__HANDLE__)->Instance->CCR1 = (__COMPARE__)) :\
+      |                                                                        ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+15:01:23 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+15:05:13 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "projekt.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Student\Downloads\workspace_1.9.0\workspace_1.9.0\projekt\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="projekt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: projekt.elf
+ 
+arm-none-eabi-size   projekt.elf 
+arm-none-eabi-objdump -h -S  projekt.elf  > "projekt.list"
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+Finished building: projekt.list
+ 
+15:05:41 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+15:06:04 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+15:06:49 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
+15:07:07 **** Incremental Build of configuration Debug for project projekt ****
+make -j4 all 
+arm-none-eabi-size   projekt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17692	     20	   2116	  19828	   4d74	projekt.elf
+Finished building: default.size.stdout
+ 
